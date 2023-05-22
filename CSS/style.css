@@ -1,0 +1,58 @@
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+   
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+    .login_btn{
+    margin-left: 140px;
+    padding-left: 50px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .text_color{
+    color: white;
+  }
+
+  .my_video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  /**
+  @media (min-aspect-ratio: 16/9){
+    .my_video{
+        width: 100%;
+        height: auto;
+    }
+  }
+
+  .container_rsvp{
+    position: relative;
+   padding-top: 200px;    
+  }
+  **/
+  
